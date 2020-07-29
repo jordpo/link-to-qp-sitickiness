@@ -1,18 +1,17 @@
-
 <LinkToRender />
 <br>
 <div>
   Href to
 </div>
 <div>
-  {{href-to 'application'}}
+  {{href-to 'posts'}}
 </div>
 <br>
 <div>
   Href to with fix
 </div>
 <div>
-  {{href-to-fix 'application'}}
+  {{href-to-fix 'posts'}}
 </div>
 
-<button {{on 'click' this.reset}}>Reset</button>
+{{outlet}}
